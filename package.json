@@ -82,7 +82,11 @@
       "@fider/(.*)": "<rootDir>/public/$1"
     }
   },
+  "engines": {
+    "npm": ">=7",
+    "node": ">=14"
+  },
   "scripts": {
-    "heroku-postbuild": "npx webpack -p"
+    "heroku-postbuild": "NODE_ENV=production npx webpack-cli"
   }
 }
