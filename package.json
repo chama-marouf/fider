@@ -83,8 +83,8 @@
     }
   },
   "engines": {
-    "npm": ">=7",
-    "node": ">=14"
+    "npm": "7.x",
+    "node": "14.x"
   },
   "scripts": {
     "heroku-postbuild": "NODE_ENV=production npx webpack-cli"
